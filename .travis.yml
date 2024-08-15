@@ -11,6 +11,8 @@ branches:
 deploy:
   skip_cleanup: true
   provider: elasticbeanstalk
+  edge:
+    branch: v1.10.16
   access_key_id:
     develop: AKIAJQOD25TNB4GR4LFQ
     uat: AKIAJQOD25TNB4GR4LFQ
